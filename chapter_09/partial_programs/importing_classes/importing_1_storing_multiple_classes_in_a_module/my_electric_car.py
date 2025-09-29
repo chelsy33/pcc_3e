@@ -1,7 +1,6 @@
-from car import ElectricCar
+from car import MultimediaProject
 
-
-my_leaf = ElectricCar('nissan', 'leaf', 2024)
-print(my_leaf.get_descriptive_name())
-my_leaf.battery.describe_battery()
-my_leaf.battery.get_range()
+project = MultimediaProject('CreativeMedia', 'EN->ES')
+project.add_subtitle_track()
+print(project.describe_project())
+print(f"Subtitle tracks: {project.subtitle_tracks}")
