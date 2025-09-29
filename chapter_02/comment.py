@@ -1,2 +1,2 @@
-# Say hello to everyone.
-print("Hello Python people!")
+# 向翻译项目成员问好。
+print("大家好，准备开始今天的翻译项目协作了吗？")

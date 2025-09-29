@@ -2,7 +2,8 @@ from pathlib import Path
 import json
 
 path = Path('numbers.json')
-contents = path.read_text()
-numbers = json.loads(contents)
+numbers = json.loads(path.read_text())
 
-print(numbers)
+print("Previously analyzed word counts:")
+for number in numbers:
+    print(number)

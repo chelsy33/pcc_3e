@@ -1,7 +1,8 @@
-cars = ['audi', 'bmw', 'subaru', 'toyota']
+assignment = 'medical manual'
 
-for car in cars:
-    if car == 'bmw':
-        print(car.upper())
-    else:
-        print(car.title())
+if assignment == 'medical manual':
+    print("Assign to translator with medical background.")
+elif assignment == 'legal contract':
+    print("Assign to translator with legal expertise.")
+else:
+    print("Assign to general translation team.")

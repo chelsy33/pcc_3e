@@ -1,8 +1,6 @@
-def make_pizza(size, *toppings):
-    """Summarize the pizza we are about to make."""
-    print(f"\nMaking a {size}-inch pizza with the following toppings:")
-    for topping in toppings:
-        print(f"- {topping}")
+def build_keyword_list(base_language, target_language, *keywords):
+    print(f"Keyword list for {base_language}->{target_language}:")
+    for keyword in keywords:
+        print(f"- {keyword}")
 
-make_pizza(16, 'pepperoni')
-make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
+build_keyword_list('English', 'Spanish', 'stakeholder', 'compliance', 'sustainability')

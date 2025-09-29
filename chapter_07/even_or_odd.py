@@ -1,7 +1,6 @@
-number = input("Enter a number, and I'll tell you if it's even or odd: ")
-number = int(number)
+segment = 13
 
-if number % 2 == 0:
-    print(f"\nThe number {number} is even.")
+if segment % 2 == 0:
+    print("Send this segment to the reviewer queue.")
 else:
-    print(f"\nThe number {number} is odd.")
+    print("Translator continues working on this segment.")

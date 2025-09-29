@@ -1,16 +1,16 @@
-print("Give me two numbers, and I'll divide them.")
+print("Enter two numbers to calculate average words per day.")
 print("Enter 'q' to quit.")
 
 while True:
-    first_number = input("\nFirst number: ")
-    if first_number == 'q':
+    total_words = input("Total words: ")
+    if total_words == 'q':
         break
-    second_number = input("Second number: ")
-    if second_number == 'q':
+    days = input("Days available: ")
+    if days == 'q':
         break
     try:
-        answer = int(first_number) / int(second_number)
+        words_per_day = int(total_words) / int(days)
     except ZeroDivisionError:
-        print("You can't divide by 0!")
+        print("You can't schedule zero days!")
     else:
-        print(answer)
+        print(f"You need to translate {words_per_day:.0f} words per day.")

@@ -1,4 +1,3 @@
-alien_0 = {'color': 'green', 'speed': 'slow'}
-
-point_value = alien_0.get('points', 'No point value assigned.')
-print(point_value)
+project_brief = {'language_pair': 'EN->DE', 'deadline_days': 4}
+points = project_brief.get('rush_fee', 'No rush fee assigned.')
+print(points)

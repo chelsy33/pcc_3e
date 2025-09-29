@@ -1,3 +1,3 @@
-name = "Ada Lovelace"
+name = "Li Wen"
 print(name.upper())
 print(name.lower())

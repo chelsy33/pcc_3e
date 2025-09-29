@@ -1,8 +1,9 @@
-from car import Car, ElectricCar
+from car import TranslationProject, MultimediaProject
 
+standard_project = TranslationProject('GlobalTech', 'EN->ZH')
+multimedia_project = MultimediaProject('CreativeMedia', 'EN->ES')
+multimedia_project.add_subtitle_track()
 
-my_mustang = Car('ford', 'mustang', 2024)
-print(my_mustang.get_descriptive_name())
-
-my_leaf = ElectricCar('nissan', 'leaf', 2024)
-print(my_leaf.get_descriptive_name())
+print(standard_project.describe_project())
+print(multimedia_project.describe_project())
+print(f"Subtitle tracks: {multimedia_project.subtitle_tracks}")

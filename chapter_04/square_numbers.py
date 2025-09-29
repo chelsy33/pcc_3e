@@ -1,5 +1,3 @@
-squares = []
-for value in range(1, 11):
-    squares.append(value**2)
-
-print(squares)
+word_counts = [count for count in range(100, 1001, 100)]
+print("Milestones for translation practice (word counts):")
+print(word_counts)

@@ -1,4 +1,4 @@
-first_name = "ada"
-last_name = "lovelace"
+first_name = "li"
+last_name = "wen"
 full_name = f"{first_name} {last_name}"
-print(f"Hello, {full_name.title()}!")
+print(f"Hello, Translator {full_name.title()}!")

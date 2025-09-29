@@ -1,11 +1,8 @@
-my_foods = ['pizza', 'falafel', 'carrot cake']
-friend_foods = my_foods[:]
+cat_glossaries = ['legal terms', 'medical terminology', 'software UI strings', 'marketing slogans']
+print("My favorite reference materials:")
+for resource in cat_glossaries:
+    print(f"- {resource.title()}")
 
-my_foods.append('cannoli')
-friend_foods.append('ice cream')
-
-print("My favorite foods are:")
-print(my_foods)
-
-print("\nMy friend's favorite foods are:")
-print(friend_foods)
+print("\nTeam member's reference materials:")
+for resource in cat_glossaries[:2]:
+    print(f"- {resource.title()}")

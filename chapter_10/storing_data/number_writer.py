@@ -1,9 +1,6 @@
 from pathlib import Path
 import json
 
-
-numbers = [2, 3, 5, 7, 11, 13]
-
+numbers = [1500, 2750, 3200, 4800]
 path = Path('numbers.json')
-contents = json.dumps(numbers)
-path.write_text(contents)
+path.write_text(json.dumps(numbers))

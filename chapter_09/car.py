@@ -1,42 +1,26 @@
-class Car:
-    """A simple attempt to represent a car."""
+class TranslationProject:
+    """A simple model of a translation project."""
 
-    def __init__(self, make, model, year):
-        """Initialize attributes to describe a car."""
-        self.make = make
-        self.model = model
-        self.year = year
-        self.odometer_reading = 0
+    def __init__(self, client, language_pair):
+        self.client = client
+        self.language_pair = language_pair
+        self.status = 'preparation'
+        self.word_count = 0
 
-    def get_descriptive_name(self):
-        """Return a neatly formatted descriptive name."""
-        long_name = f"{self.year} {self.make} {self.model}"
-        return long_name.title()
+    def update_word_count(self, words):
+        self.word_count += words
 
-    def read_odometer(self):
-        """Print a statement showing the car's mileage."""
-        print(f"This car has {self.odometer_reading} miles on it.")
+    def describe_project(self):
+        print(f"Client: {self.client}")
+        print(f"Language pair: {self.language_pair}")
+        print(f"Status: {self.status}")
+        print(f"Word count: {self.word_count}")
 
-    def update_odometer(self, mileage):
-        """
-        Set the odometer reading to the given value.
-        Reject the change if it attempts to roll the odometer back.
-        """
-        if mileage >= self.odometer_reading:
-            self.odometer_reading = mileage
-        else:
-            print("You can't roll back an odometer!")
-
-    def increment_odometer(self, miles):
-        """Add the given amount to the odometer reading."""
-        self.odometer_reading += miles
+    def advance_status(self, new_status):
+        self.status = new_status
 
 
-my_used_car = Car('subaru', 'outback', 2019)
-print(my_used_car.get_descriptive_name())
-
-my_used_car.update_odometer(23_500)
-my_used_car.read_odometer()
-
-my_used_car.increment_odometer(100)
-my_used_car.read_odometer()
+project = TranslationProject('GlobalTech', 'EN->ZH')
+project.update_word_count(3200)
+project.advance_status('translation')
+project.describe_project()

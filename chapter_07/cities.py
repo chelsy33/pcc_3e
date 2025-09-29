@@ -1,10 +1,17 @@
-prompt = "\nPlease enter the name of a city you have visited:"
-prompt += "\n(Enter 'quit' when you are finished.) "
+cities = {
+    'beijing': {
+        'country': 'china',
+        'language_pair': 'EN->ZH',
+        'notable_project': 'tech conference materials',
+    },
+    'montreal': {
+        'country': 'canada',
+        'language_pair': 'FR->EN',
+        'notable_project': 'immigration handbook',
+    },
+}
 
-while True:
-    city = input(prompt)
-
-    if city == 'quit':
-        break
-    else:
-        print(f"I'd love to go to {city.title()}!")
+for city, info in cities.items():
+    print(f"{city.title()}, {info['country'].title()}")
+    print(f"  Language pair: {info['language_pair']}")
+    print(f"  Recent work: {info['notable_project'].title()}")

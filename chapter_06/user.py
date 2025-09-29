@@ -1,9 +1,9 @@
-user_0 = {
-    'username': 'efermi',
-    'first': 'enrico',
-    'last': 'fermi',
-    }
+translator = {
+    'username': 'mtran',
+    'first': 'mei',
+    'last': 'tran',
+    'specialization': 'financial reports',
+}
 
-for key, value in user_0.items():
-    print(f"\nKey: {key}")
-    print(f"Value: {value}")
+for key, value in translator.items():
+    print(f"{key.title()}: {value}")

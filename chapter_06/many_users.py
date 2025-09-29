@@ -1,22 +1,19 @@
-users = {
-    'aeinstein': {
-        'first': 'albert',
-        'last': 'einstein',
-        'location': 'princeton',
-        },
+translator_profiles = {
+    'lwen': {
+        'first': 'li',
+        'last': 'wen',
+        'languages': ['English', 'Chinese'],
+    },
+    'cchen': {
+        'first': 'chen',
+        'last': 'yu',
+        'languages': ['English', 'Japanese'],
+    },
+}
 
-    'mcurie': {
-        'first': 'marie',
-        'last': 'curie',
-        'location': 'paris',
-        },
-
-    }
-
-for username, user_info in users.items():
-    print(f"\nUsername: {username}")
-    full_name = f"{user_info['first']} {user_info['last']}"
-    location = user_info['location']
-    
-    print(f"\tFull name: {full_name.title()}")
-    print(f"\tLocation: {location.title()}")
+for username, profile in translator_profiles.items():
+    full_name = f"{profile['first']} {profile['last']}"
+    languages = ', '.join(profile['languages'])
+    print(f"User: {username}")
+    print(f"  Name: {full_name.title()}")
+    print(f"  Working languages: {languages}")

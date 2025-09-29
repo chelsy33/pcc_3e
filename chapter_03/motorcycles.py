@@ -1,7 +1,7 @@
-motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
-print(motorcycles)
+translation_requests = ['software manual', 'tourism brochure', 'research abstract', 'overnight legal brief']
+print(translation_requests)
 
-too_expensive = 'ducati'
-motorcycles.remove(too_expensive)
-print(motorcycles)
-print(f"\nA {too_expensive.title()} is too expensive for me.")
+urgent_request = 'overnight legal brief'
+translation_requests.remove(urgent_request)
+print(translation_requests)
+print(f"\nThe {urgent_request.title()} needs our team's immediate attention.")

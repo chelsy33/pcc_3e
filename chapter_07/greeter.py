@@ -1,5 +1,2 @@
-prompt = "If you share your name, we can personalize the messages you see."
-prompt += "\nWhat is your first name? "
-
-name = input(prompt)
-print(f"\nHello, {name}!")
+name = 'Li Wen'
+print(f"Hello, {name}! Ready for today's translation sprint?")
