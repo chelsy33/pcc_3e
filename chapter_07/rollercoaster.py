@@ -1,7 +1,6 @@
-height = input("How tall are you, in inches? ")
-height = int(height)
+word_count = 2200
 
-if height >= 48:
-    print("\nYou're tall enough to ride!")
+if word_count >= 2000:
+    print("Apply premium proofreading workflow.")
 else:
-    print("\nYou'll be able to ride when you're a little older.")
+    print("Standard proofreading is sufficient.")

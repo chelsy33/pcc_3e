@@ -1,9 +1,9 @@
-dimensions = (200, 50)
-print("Original dimensions:")
-for dimension in dimensions:
-    print(dimension)
+deadlines = (2, 5)
+print("Original turnaround windows:")
+for days in deadlines:
+    print(f"- {days} day(s) for standard translation")
 
-dimensions = (400, 100)
-print("\nModified dimensions:")
-for dimension in dimensions:
-    print(dimension)
+print("\nUpdated turnaround windows:")
+deadlines = (2, 3)
+for days in deadlines:
+    print(f"- {days} day(s) for urgent projects")

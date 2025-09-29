@@ -1,4 +1,4 @@
-answer = 17
+fuzzy_score = 88
 
-if answer != 42:
-    print("That is not the correct answer. Please try again!")
+if fuzzy_score != 100:
+    print("This segment still needs a human review.")

@@ -1,7 +1,8 @@
-age = 17
-if age >= 18:
-    print("You are old enough to vote!")
-    print("Have you registered to vote yet?")
+preferred_tool = 'memoq'
+
+if preferred_tool == 'trados':
+    print("Assign the project in Trados Studio.")
+elif preferred_tool == 'memoq':
+    print("Set up the project in memoQ.")
 else:
-    print("Sorry, you are too young to vote.")
-    print("Please register to vote as soon as you turn 18!")
+    print("Confirm the tool setup with the translator.")

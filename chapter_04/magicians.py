@@ -1,6 +1,4 @@
-magicians = ['alice', 'david', 'carolina']
-for magician in magicians:
-    print(f"{magician.title()}, that was a great trick!")
-    print(f"I can't wait to see your next trick, {magician.title()}.\n")
-
-print("Thank you, everyone. That was a great magic show!")
+translators = ['li wen', 'chen yu', 'maria gonzalez']
+for translator in translators:
+    print(f"Great job on the last project, {translator.title()}!")
+    print("Can't wait to see your next translation.\n")

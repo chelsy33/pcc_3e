@@ -1,12 +1,8 @@
-available_toppings = ['mushrooms', 'olives', 'green peppers',
-                        'pepperoni', 'pineapple', 'extra cheese']
+requested_keywords = ['brand name consistency', 'legal disclaimer']
 
-requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
-
-for requested_topping in requested_toppings:
-    if requested_topping in available_toppings:
-        print(f"Adding {requested_topping}.")
-    else:
-        print(f"Sorry, we don't have {requested_topping}.")
-        
-print("\nFinished making your pizza!")
+if 'brand name consistency' in requested_keywords:
+    print("Ensure brand name appears in every paragraph.")
+if 'terminology alignment' in requested_keywords:
+    print("Sync with legal glossary.")
+if 'legal disclaimer' in requested_keywords:
+    print("Double-check the legal disclaimer translation.")

@@ -1,9 +1,7 @@
 from pathlib import Path
 import json
 
-
 path = Path('username.json')
-contents = path.read_text()
-username = json.loads(contents)
+username = json.loads(path.read_text())
 
-print(f"Welcome back, {username}!")
+print(f"Welcome back, Translator {username}! Ready for your next project?")

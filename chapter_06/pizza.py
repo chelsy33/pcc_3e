@@ -1,12 +1,8 @@
-# Store information about a pizza being ordered.
-pizza = {
-    'crust': 'thick',
-    'toppings': ['mushrooms', 'extra cheese'],
-    }
+term_list = {
+    'base_language': 'English',
+    'target_language': 'Spanish',
+    'keywords': ['compliance', 'sustainability', 'stakeholder']
+}
 
-# Summarize the order.
-print(f"You ordered a {pizza['crust']}-crust pizza "
-    "with the following toppings:")
-
-for topping in pizza['toppings']:
-    print(f"\t{topping}")
+for key, value in term_list.items():
+    print(f"{key.title()}: {value}")

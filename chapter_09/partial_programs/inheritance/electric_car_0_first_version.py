@@ -1,41 +1,18 @@
-class Car:
-    """A simple attempt to represent a car."""
+class TranslationProject:
+    """Represent a general translation project."""
 
-    def __init__(self, make, model, year):
-        """Initialize attributes to describe a car."""
-        self.make = make
-        self.model = model
-        self.year = year
-        self.odometer_reading = 0
+    def __init__(self, client, language_pair):
+        self.client = client
+        self.language_pair = language_pair
+        self.status = 'preparation'
 
-    def get_descriptive_name(self):
-        """Return a neatly formatted descriptive name."""
-        long_name = f"{self.year} {self.make} {self.model}"
-        return long_name.title()
+class MultimediaProject(TranslationProject):
+    """A translation project that includes multimedia elements."""
 
-    def read_odometer(self):
-        """Print a statement showing the car's mileage."""
-        print(f"This car has {self.odometer_reading} miles on it.")
+    def __init__(self, client, language_pair):
+        super().__init__(client, language_pair)
+        self.subtitle_tracks = 0
 
-    def update_odometer(self, mileage):
-        """Set the odometer reading to the given value."""
-        if mileage >= self.odometer_reading:
-            self.odometer_reading = mileage
-        else:
-            print("You can't roll back an odometer!")
-
-    def increment_odometer(self, miles):
-        """Add the given amount to the odometer reading."""
-        self.odometer_reading += miles
-
-
-class ElectricCar(Car):
-    """Represent aspects of a car, specific to electric vehicles."""
-
-    def __init__(self, make, model, year):
-        """Initialize attributes of the parent class."""
-        super().__init__(make, model, year)
-
-
-my_leaf = ElectricCar('nissan', 'leaf', 2024)
-print(my_leaf.get_descriptive_name())
+project = MultimediaProject('CreativeMedia', 'EN->ES')
+print(project.client)
+print(project.subtitle_tracks)

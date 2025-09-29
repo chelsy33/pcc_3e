@@ -1,4 +1,4 @@
-bicycles = ['trek', 'cannondale', 'redline', 'specialized']
-message = f"My first bicycle was a {bicycles[0].title()}."
+cat_tools = ['trados studio', 'memoq', 'wordfast', 'cafetran']
+message = f"My first CAT tool was {cat_tools[0].title()}."
 
 print(message)

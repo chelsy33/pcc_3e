@@ -1,11 +1,9 @@
-favorite_languages = {
-      'jen': ['python', 'rust'],
-      'sarah': ['c'],
-      'edward': ['rust', 'go'],
-      'phil': ['python', 'haskell'],
-      }
+favorite_specializations = {
+    'li': 'medical',
+    'chen': 'legal',
+    'maria': 'marketing',
+    'david': 'software localization',
+}
 
-for name, languages in favorite_languages.items():
-    print(f"\n{name.title()}'s favorite languages are:")
-    for language in languages:
-        print(f"\t{language.title()}")
+for translator, focus in favorite_specializations.items():
+    print(f"{translator.title()} enjoys {focus} projects.")
