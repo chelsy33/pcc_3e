@@ -1,8 +1,6 @@
-from car import Car
+from car import TranslationProject
 
-
-my_new_car = Car('audi', 'a4', 2024)
-print(my_new_car.get_descriptive_name())
-
-my_new_car.odometer_reading = 23
-my_new_car.read_odometer()
+project = TranslationProject('GlobalTech', 'EN->ZH')
+print(project.describe_project())
+project.advance_status('translation')
+print(f"Status: {project.status}")

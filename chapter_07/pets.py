@@ -1,7 +1,11 @@
-pets = ['dog', 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
-print(pets)
+active_assignments = ['legal contract', 'software release notes', 'marketing campaign']
+completed_assignments = []
 
-while 'cat' in pets:
-    pets.remove('cat')
+while active_assignments:
+    assignment = active_assignments.pop(0)
+    print(f"Completing: {assignment.title()}")
+    completed_assignments.append(assignment)
 
-print(pets)
+print("\nCompleted assignments:")
+for assignment in completed_assignments:
+    print(f"- {assignment.title()}")

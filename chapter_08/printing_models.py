@@ -1,21 +1,16 @@
-def print_models(unprinted_designs, completed_models):
-    """
-    Simulate printing each design, until none are left.
-    Move each design to completed_models after printing.
-    """
-    while unprinted_designs:
-        current_design = unprinted_designs.pop()
-        print(f"Printing model: {current_design}")
-        completed_models.append(current_design)
+def prepare_projects(pending_projects, completed_projects):
+    while pending_projects:
+        project = pending_projects.pop()
+        print(f"Processing translation project: {project}")
+        completed_projects.append(project)
 
-def show_completed_models(completed_models):
-    """Show all the models that were printed."""
-    print("\nThe following models have been printed:")
-    for completed_model in completed_models:
-        print(completed_model)
+def summarize_projects(completed_projects):
+    print("\nCompleted translation projects:")
+    for project in completed_projects:
+        print(f"- {project}")
 
-unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
-completed_models = []
+pending_projects = ['legal contract', 'medical brochure', 'marketing campaign']
+completed_projects = []
 
-print_models(unprinted_designs, completed_models)
-show_completed_models(completed_models)
+prepare_projects(pending_projects[:], completed_projects)
+summarize_projects(completed_projects)

@@ -1,2 +1,3 @@
-even_numbers = list(range(2, 11, 2))
-print(even_numbers)
+review_slots = list(range(2, 21, 2))
+print("Available review slots (in hours):")
+print(review_slots)

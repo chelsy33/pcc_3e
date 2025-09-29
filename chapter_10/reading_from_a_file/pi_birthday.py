@@ -1,16 +1,11 @@
 from pathlib import Path
 
+path = Path('pi_digits.txt')
+contents = path.read_text().strip().replace('\n', '')
 
-path = Path('pi_million_digits.txt')
-contents = path.read_text()
+phrase = input("Enter a sequence to search in the translation memory snippet: ")
 
-lines = contents.splitlines()
-pi_string = ''
-for line in lines:
-    pi_string += line.lstrip()
-
-birthday = input("Enter your birthday, in the form mmddyy: ")
-if birthday in pi_string:
-    print("Your birthday appears in the first million digits of pi!")
+if phrase in contents:
+    print("Your sequence appears in the snippet!")
 else:
-    print("Your birthday does not appear in the first million digits of pi.")
+    print("Sequence not found.")

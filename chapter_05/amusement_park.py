@@ -1,12 +1,10 @@
-age = 12
+age = 24
 
-if age < 4:
+if age < 18:
     price = 0
-elif age < 18:
-    price = 25
-elif age < 65:
-    price = 40
-elif age >= 65:
-    price = 20
+elif age < 60:
+    price = 200
+else:
+    price = 120
 
-print(f"Your admission cost is ${price}.")
+print(f"Conference registration fee: ¥{price}")

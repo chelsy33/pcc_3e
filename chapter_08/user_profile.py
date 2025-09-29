@@ -1,10 +1,15 @@
-def build_profile(first, last, **user_info):
-    """Build a dictionary containing everything we know about a user."""
-    user_info['first_name'] = first
-    user_info['last_name'] = last
-    return user_info
+def build_translator_profile(first, last, **info):
+    profile = {
+        'first': first.title(),
+        'last': last.title(),
+    }
+    profile.update(info)
+    return profile
 
-user_profile = build_profile('albert', 'einstein',
-                             location='princeton',
-                             field='physics')
-print(user_profile)
+translator_profile = build_translator_profile(
+    'li', 'wen',
+    languages=['English', 'Chinese'],
+    specialization='medical',
+    cat_tool='memoQ',
+)
+print(translator_profile)

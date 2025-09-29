@@ -8,13 +8,11 @@ def count_words(path):
     except FileNotFoundError:
         pass
     else:
-        # Count the approximate number of words in the file:
         words = contents.split()
         num_words = len(words)
-        print(f"The file {path} has about {num_words} words.")
+        print(f"The file {path} contains about {num_words} words to translate.")
 
-filenames = ['alice.txt', 'siddhartha.txt', 'moby_dick.txt',
-        'little_women.txt']
+filenames = ['alice.txt', 'siddhartha.txt', 'moby_dick.txt', 'little_women.txt']
 for filename in filenames:
     path = Path(filename)
     count_words(path)

@@ -1,16 +1,11 @@
-class Car:
-    """A simple attempt to represent a car."""
+class TranslationProject:
+    """Represent a general translation project."""
 
-    def __init__(self, make, model, year):
-        """Initialize attributes to describe a car."""
-        self.make = make
-        self.model = model
-        self.year = year
+    def __init__(self, client, language_pair):
+        self.client = client
+        self.language_pair = language_pair
+        self.status = 'preparation'
 
-    def get_descriptive_name(self):
-        """Return a neatly formatted descriptive name."""
-        long_name = f"{self.year} {self.make} {self.model}"
-        return long_name.title()
-
-my_new_car = Car('audi', 'a4', 2024)
-print(my_new_car.get_descriptive_name())
+project = TranslationProject('GlobalTech', 'EN->ZH')
+print(project.client)
+print(project.language_pair)

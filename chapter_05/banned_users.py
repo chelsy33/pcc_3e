@@ -1,5 +1,7 @@
-banned_users = ['andrew', 'carolina', 'david']
-user = 'marie'
+banned_clients = ['late payer', 'unrealistic deadline']
+client = 'late payer'
 
-if user not in banned_users:
-    print(f"{user.title()}, you can post a response if you wish.")
+if client not in banned_clients:
+    print(f"Scheduling project for {client}.")
+else:
+    print(f"Cannot accept the project: {client}.")

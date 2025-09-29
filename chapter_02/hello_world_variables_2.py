@@ -1,5 +1,5 @@
-message = "Hello Python world!"
+message = "Python 能帮助我们管理翻译项目。"
 print(message)
 
-message = "Hello Python Crash Course world!"
+message = "让我们一起构建翻译自动化工具！"
 print(message)

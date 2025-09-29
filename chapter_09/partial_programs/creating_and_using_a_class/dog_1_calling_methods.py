@@ -1,20 +1,17 @@
-class Dog:
-    """A simple attempt to model a dog."""
+class Reviewer:
+    """Model a proofreading specialist."""
 
-    def __init__(self, name, age):
-        """Initialize name and age attributes."""
+    def __init__(self, name, expertise):
         self.name = name
-        self.age = age
+        self.expertise = expertise
 
-    def sit(self):
-        """Simulate a dog sitting in response to a command."""
-        print(f"{self.name} is now sitting.")
+    def describe_reviewer(self):
+        print(f"Reviewer: {self.name.title()}")
+        print(f"Expertise: {self.expertise}")
 
-    def roll_over(self):
-        """Simulate rolling over in response to a command."""
-        print(f"{self.name} rolled over!")
+    def review_project(self):
+        print(f"{self.name.title()} is reviewing the translation.")
 
-
-my_dog = Dog('Willie', 6)
-my_dog.sit()
-my_dog.roll_over()
+reviewer = Reviewer('li wen', 'medical devices')
+reviewer.describe_reviewer()
+reviewer.review_project()

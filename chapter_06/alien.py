@@ -1,5 +1,6 @@
-alien_0 = {'color': 'green', 'points': 5}
-print(alien_0)
+project_brief = {'language_pair': 'EN->ZH', 'word_count': 2500}
+print(project_brief)
 
-del alien_0['points']
-print(alien_0)
+# Remove the word count once the project is completed.
+del project_brief['word_count']
+print(project_brief)
