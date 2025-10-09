@@ -1,3 +1,5 @@
+# 知识点：查询数据库并在页面中展示主题及其记录。
+
 from django.shortcuts import render
 
 from .models import Topic

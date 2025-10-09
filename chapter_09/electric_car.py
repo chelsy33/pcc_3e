@@ -1,3 +1,5 @@
+# 知识点：通过继承扩展父类功能，描述电动车特性。
+
 class TranslationProject:
     """Represent a general translation project."""
 

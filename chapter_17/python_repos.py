@@ -1,3 +1,5 @@
+# 知识点：向 GitHub API 发起请求并解析最热门的 Python 仓库。
+
 import requests
 
 

@@ -1,3 +1,5 @@
+# 知识点：向函数传递列表并在内部修改其内容。
+
 def prepare_projects(pending_projects, completed_projects):
     while pending_projects:
         project = pending_projects.pop()

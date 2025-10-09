@@ -1,3 +1,5 @@
+# 知识点：封装骰子对象并提供掷骰方法，支撑可视化分析。
+
 from random import randint
 
 class Die:

@@ -1,3 +1,5 @@
+# 知识点：捕获 ZeroDivisionError，确保除法计算器安全运行。
+
 print("Enter two numbers to calculate average words per day.")
 print("Enter 'q' to quit.")
 

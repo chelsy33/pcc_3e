@@ -1,3 +1,5 @@
+# 知识点：结合条件判断与布尔值，决定译员是否能参与评审。
+
 preferred_tool = 'memoq'
 
 if preferred_tool == 'trados':

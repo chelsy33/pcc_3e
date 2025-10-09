@@ -1,0 +1,632 @@
+{
+  "chapter_01": {
+    "knowledge_points": [
+      {
+        "id": "printing_strings",
+        "description": "使用 print() 输出问候语",
+        "examples": [
+          {
+            "path": "chapter_01/hello_world.py",
+            "comment": "# 知识点：使用 print() 函数输出问候语，验证 Python 环境已就绪。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_02": {
+    "knowledge_points": [
+      {
+        "id": "variable_assignment",
+        "description": "变量赋值",
+        "examples": [
+          {
+            "path": "chapter_02/hello_world_variables.py",
+            "comment": "# 知识点：通过变量保存字符串，再使用 print() 输出变量的值。"
+          }
+        ]
+      },
+      {
+        "id": "string_concatenation",
+        "description": "字符串拼接",
+        "examples": [
+          {
+            "path": "chapter_02/full_name.py",
+            "comment": "# 知识点：利用字符串拼接与 title() 方法生成格式化姓名。"
+          }
+        ]
+      },
+      {
+        "id": "f_strings",
+        "description": "f 字符串格式化",
+        "examples": [
+          {
+            "path": "chapter_02/full_name_3.py",
+            "comment": "# 知识点：使用 f 字符串构建说明性句子，让变量嵌入输出。"
+          }
+        ]
+      },
+      {
+        "id": "escaping_characters",
+        "description": "转义字符",
+        "examples": [
+          {
+            "path": "chapter_02/apostrophe.py",
+            "comment": "# 知识点：通过合适的引号或转义字符在字符串中正确地表示撇号。"
+          }
+        ]
+      },
+      {
+        "id": "code_comments",
+        "description": "注释",
+        "examples": [
+          {
+            "path": "chapter_02/comment.py",
+            "comment": "# 知识点：加入注释说明代码用途，提升翻译项目脚本的可读性。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_03": {
+    "knowledge_points": [
+      {
+        "id": "list_basics",
+        "description": "列表基础",
+        "examples": [
+          {
+            "path": "chapter_03/bicycles.py",
+            "comment": "# 知识点：创建列表并使用索引访问首个计算机辅助翻译工具。"
+          }
+        ]
+      },
+      {
+        "id": "list_modification",
+        "description": "列表修改",
+        "examples": [
+          {
+            "path": "chapter_03/cars.py",
+            "comment": "# 知识点：通过索引修改列表元素，反映项目中最新的术语资源。"
+          }
+        ]
+      },
+      {
+        "id": "list_methods",
+        "description": "列表方法",
+        "examples": [
+          {
+            "path": "chapter_03/motorcycles.py",
+            "comment": "# 知识点：调用列表方法添加与删除元素，维护工具清单。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_04": {
+    "knowledge_points": [
+      {
+        "id": "for_loops",
+        "description": "for 循环",
+        "examples": [
+          {
+            "path": "chapter_04/magicians.py",
+            "comment": "# 知识点：使用 for 循环遍历列表，为每位译员生成个性化问候。"
+          }
+        ]
+      },
+      {
+        "id": "numeric_ranges",
+        "description": "数字序列",
+        "examples": [
+          {
+            "path": "chapter_04/even_numbers.py",
+            "comment": "# 知识点：利用 range() 生成等间隔的数字序列，用于任务节奏规划。"
+          }
+        ]
+      },
+      {
+        "id": "list_comprehension_practice",
+        "description": "循环构建列表",
+        "examples": [
+          {
+            "path": "chapter_04/squares.py",
+            "comment": "# 知识点：在循环中逐步 append() 数据，记录翻译练习的里程碑。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_05": {
+    "knowledge_points": [
+      {
+        "id": "conditional_chains",
+        "description": "条件语句",
+        "examples": [
+          {
+            "path": "chapter_05/amusement_park.py",
+            "comment": "# 知识点：综合使用 if-elif-else 判定票价逻辑，模拟客户分级。"
+          }
+        ]
+      },
+      {
+        "id": "equality_checks",
+        "description": "相等与不等判断",
+        "examples": [
+          {
+            "path": "chapter_05/magic_number.py",
+            "comment": "# 知识点：编写 if 语句比较输入值，提示是否匹配目标编号。"
+          }
+        ]
+      },
+      {
+        "id": "membership_tests",
+        "description": "成员测试",
+        "examples": [
+          {
+            "path": "chapter_05/banned_users.py",
+            "comment": "# 知识点：使用 in / not in 检查用户是否在黑名单中。"
+          }
+        ]
+      },
+      {
+        "id": "boolean_logic",
+        "description": "布尔逻辑",
+        "examples": [
+          {
+            "path": "chapter_05/voting.py",
+            "comment": "# 知识点：结合条件判断与布尔值，决定译员是否能参与评审。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_06": {
+    "knowledge_points": [
+      {
+        "id": "dictionary_basics",
+        "description": "字典基础",
+        "examples": [
+          {
+            "path": "chapter_06/alien.py",
+            "comment": "# 知识点：创建字典并访问键值对，存储外星人属性。"
+          }
+        ]
+      },
+      {
+        "id": "dictionary_iteration",
+        "description": "遍历字典",
+        "examples": [
+          {
+            "path": "chapter_06/favorite_languages.py",
+            "comment": "# 知识点：遍历键与值，统计团队常用的编程语言。"
+          }
+        ]
+      },
+      {
+        "id": "nested_structures",
+        "description": "嵌套数据结构",
+        "examples": [
+          {
+            "path": "chapter_06/user.py",
+            "comment": "# 知识点：在字典中嵌套字典，记录多名用户的详细信息。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_07": {
+    "knowledge_points": [
+      {
+        "id": "user_input",
+        "description": "用户输入",
+        "examples": [
+          {
+            "path": "chapter_07/parrot.py",
+            "comment": "# 知识点：使用 input() 接收用户消息并即时反馈。"
+          }
+        ]
+      },
+      {
+        "id": "type_conversion",
+        "description": "类型转换",
+        "examples": [
+          {
+            "path": "chapter_07/rollercoaster.py",
+            "comment": "# 知识点：将输入转换为整数后再进行条件判断。"
+          }
+        ]
+      },
+      {
+        "id": "while_loops",
+        "description": "while 循环",
+        "examples": [
+          {
+            "path": "chapter_07/confirmed_users.py",
+            "comment": "# 知识点：通过 while 循环与列表操作跟踪待确认与已确认用户。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_08": {
+    "knowledge_points": [
+      {
+        "id": "functions_with_return",
+        "description": "带返回值的函数",
+        "examples": [
+          {
+            "path": "chapter_08/formatted_name.py",
+            "comment": "# 知识点：编写函数处理姓名并返回格式化结果。"
+          }
+        ]
+      },
+      {
+        "id": "arbitrary_arguments",
+        "description": "可变参数",
+        "examples": [
+          {
+            "path": "chapter_08/pizza.py",
+            "comment": "# 知识点：使用 *args 接收任意数量的配料参数。"
+          }
+        ]
+      },
+      {
+        "id": "modifying_lists_in_functions",
+        "description": "函数与列表",
+        "examples": [
+          {
+            "path": "chapter_08/printing_models.py",
+            "comment": "# 知识点：向函数传递列表并在内部修改其内容。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_09": {
+    "knowledge_points": [
+      {
+        "id": "defining_classes",
+        "description": "定义类",
+        "examples": [
+          {
+            "path": "chapter_09/dog.py",
+            "comment": "# 知识点：定义类和实例方法，模拟翻译助理犬的行为。"
+          }
+        ]
+      },
+      {
+        "id": "working_with_instances",
+        "description": "操作实例",
+        "examples": [
+          {
+            "path": "chapter_09/car.py",
+            "comment": "# 知识点：在类中封装属性与方法，跟踪车辆状态。"
+          }
+        ]
+      },
+      {
+        "id": "inheritance",
+        "description": "继承",
+        "examples": [
+          {
+            "path": "chapter_09/electric_car.py",
+            "comment": "# 知识点：通过继承扩展父类功能，描述电动车特性。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_10": {
+    "knowledge_points": [
+      {
+        "id": "reading_files",
+        "description": "读取文件",
+        "examples": [
+          {
+            "path": "chapter_10/reading_from_a_file/file_reader.py",
+            "comment": "# 知识点：逐行读取文本文件，并在终端显示内容。"
+          }
+        ]
+      },
+      {
+        "id": "writing_files",
+        "description": "写入文件",
+        "examples": [
+          {
+            "path": "chapter_10/writing_to_a_file/write_message.py",
+            "comment": "# 知识点：以写模式打开文件，并将多行文本写入其中。"
+          }
+        ]
+      },
+      {
+        "id": "exception_handling",
+        "description": "异常处理",
+        "examples": [
+          {
+            "path": "chapter_10/exceptions/division_calculator.py",
+            "comment": "# 知识点：捕获 ZeroDivisionError，确保除法计算器安全运行。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_11": {
+    "knowledge_points": [
+      {
+        "id": "unit_testing",
+        "description": "单元测试",
+        "examples": [
+          {
+            "path": "chapter_11/test_name_function.py",
+            "comment": "# 知识点：使用 unittest 验证格式化姓名函数的行为。"
+          }
+        ]
+      },
+      {
+        "id": "testing_classes",
+        "description": "测试类",
+        "examples": [
+          {
+            "path": "chapter_11/test_survey.py",
+            "comment": "# 知识点：为类编写测试用例，确保问卷调查逻辑可靠。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_12": {
+    "knowledge_points": [
+      {
+        "id": "pygame_setup",
+        "description": "Pygame 初始化",
+        "examples": [
+          {
+            "path": "chapter_12/starting_the_game_project/alien_invasion.py",
+            "comment": "# 知识点：初始化 Pygame 并管理主循环驱动游戏运行。"
+          }
+        ]
+      },
+      {
+        "id": "sprite_movement",
+        "description": "精灵移动",
+        "examples": [
+          {
+            "path": "chapter_12/piloting_the_ship/ship.py",
+            "comment": "# 知识点：封装飞船精灵并处理持续移动的输入事件。"
+          }
+        ]
+      },
+      {
+        "id": "loading_images",
+        "description": "加载图像",
+        "examples": [
+          {
+            "path": "chapter_12/adding_ship_image/alien_invasion.py",
+            "comment": "# 知识点：加载位图图像并在屏幕上绘制飞船。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_13": {
+    "knowledge_points": [
+      {
+        "id": "enemy_fleet",
+        "description": "外星人编队",
+        "examples": [
+          {
+            "path": "chapter_13/making_fleet_move/alien.py",
+            "comment": "# 知识点：定义外星人精灵并更新其水平移动行为。"
+          }
+        ]
+      },
+      {
+        "id": "projectiles",
+        "description": "子弹发射",
+        "examples": [
+          {
+            "path": "chapter_13/shooting_aliens/bullet.py",
+            "comment": "# 知识点：创建子弹精灵，实现向上飞行并管理生命周期。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_14": {
+    "knowledge_points": [
+      {
+        "id": "game_state_management",
+        "description": "游戏状态管理",
+        "examples": [
+          {
+            "path": "chapter_14/adding_play_button/game_stats.py",
+            "comment": "# 知识点：用数据类跟踪游戏状态与得分，实现可暂停逻辑。"
+          }
+        ]
+      },
+      {
+        "id": "difficulty_scaling",
+        "description": "难度提升",
+        "examples": [
+          {
+            "path": "chapter_14/leveling_up/alien_invasion.py",
+            "comment": "# 知识点：调整设置以提升外星人速度，塑造逐步升级的挑战。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_15": {
+    "knowledge_points": [
+      {
+        "id": "line_plot",
+        "description": "折线图",
+        "examples": [
+          {
+            "path": "chapter_15/plotting_simple_line_graph/mpl_squares.py",
+            "comment": "# 知识点：使用 Matplotlib 绘制平方数的折线图。"
+          }
+        ]
+      },
+      {
+        "id": "random_walk",
+        "description": "随机漫步",
+        "examples": [
+          {
+            "path": "chapter_15/random_walks/random_walk.py",
+            "comment": "# 知识点：构建 RandomWalk 类模拟二维随机漫步轨迹。"
+          }
+        ]
+      },
+      {
+        "id": "dice_simulation",
+        "description": "骰子模拟",
+        "examples": [
+          {
+            "path": "chapter_15/rolling_dice/die.py",
+            "comment": "# 知识点：封装骰子对象并提供掷骰方法，支撑可视化分析。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_16": {
+    "knowledge_points": [
+      {
+        "id": "csv_reader",
+        "description": "CSV 读取",
+        "examples": [
+          {
+            "path": "chapter_16/the_csv_file_format/sitka_highs.py",
+            "comment": "# 知识点：解析 CSV 文件，提取并绘制日最高温数据。"
+          }
+        ]
+      },
+      {
+        "id": "plotly_visualization",
+        "description": "Plotly 可视化",
+        "examples": [
+          {
+            "path": "chapter_16/mapping_global_datasets/eq_world_map.py",
+            "comment": "# 知识点：调用 Plotly 绘制全球地震的交互式散点地图。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_17": {
+    "knowledge_points": [
+      {
+        "id": "api_requests",
+        "description": "API 请求",
+        "examples": [
+          {
+            "path": "chapter_17/python_repos.py",
+            "comment": "# 知识点：向 GitHub API 发起请求并解析最热门的 Python 仓库。"
+          }
+        ]
+      },
+      {
+        "id": "data_processing",
+        "description": "数据处理",
+        "examples": [
+          {
+            "path": "chapter_17/hn_article.py",
+            "comment": "# 知识点：获取 Hacker News 热门文章并按投票排序显示。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_18": {
+    "knowledge_points": [
+      {
+        "id": "django_routing",
+        "description": "Django 路由",
+        "examples": [
+          {
+            "path": "chapter_18/starting_an_app/ll_project/urls.py",
+            "comment": "# 知识点：配置项目 URL，将请求分发到 learning_logs 应用。"
+          }
+        ]
+      },
+      {
+        "id": "django_views",
+        "description": "Django 视图",
+        "examples": [
+          {
+            "path": "chapter_18/starting_an_app/learning_logs/views.py",
+            "comment": "# 知识点：定义视图函数并渲染主页模板。"
+          }
+        ]
+      },
+      {
+        "id": "template_rendering",
+        "description": "模板渲染",
+        "examples": [
+          {
+            "path": "chapter_18/making_pages/learning_logs/views.py",
+            "comment": "# 知识点：向模板传递上下文数据，构建主题列表页面。"
+          }
+        ]
+      },
+      {
+        "id": "querysets",
+        "description": "查询集",
+        "examples": [
+          {
+            "path": "chapter_18/building_additional_pages/learning_logs/views.py",
+            "comment": "# 知识点：查询数据库并在页面中展示主题及其记录。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_19": {
+    "knowledge_points": [
+      {
+        "id": "access_control",
+        "description": "访问控制",
+        "examples": [
+          {
+            "path": "chapter_19/allowing_users_to_own_their_data/learning_logs/views.py",
+            "comment": "# 知识点：使用登录限制和权限检查保护用户数据。"
+          }
+        ]
+      },
+      {
+        "id": "django_forms",
+        "description": "Django 表单",
+        "examples": [
+          {
+            "path": "chapter_19/allowing_users_to_own_their_data/learning_logs/forms.py",
+            "comment": "# 知识点：基于模型生成表单，控制字段与外观。"
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_20": {
+    "knowledge_points": [
+      {
+        "id": "deployment_settings",
+        "description": "部署设置",
+        "examples": [
+          {
+            "path": "chapter_20/deploying_learning_log/ll_project/settings.py",
+            "comment": "# 知识点：为部署环境调整 Django 设置并声明允许的主机。"
+          }
+        ]
+      },
+      {
+        "id": "production_views",
+        "description": "生产环境视图",
+        "examples": [
+          {
+            "path": "chapter_20/deploying_learning_log/learning_logs/views.py",
+            "comment": "# 知识点：在部署版本中维持完整的视图逻辑以支撑业务流程。"
+          }
+        ]
+      }
+    ]
+  }
+}

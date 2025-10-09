@@ -1,3 +1,5 @@
+# 知识点：获取 Hacker News 热门文章并按投票排序显示。
+
 import requests
 import json
 

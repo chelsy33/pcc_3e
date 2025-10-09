@@ -1,3 +1,5 @@
+# 知识点：使用 unittest 验证格式化姓名函数的行为。
+
 from name_function import get_formatted_name
 
 

@@ -1,3 +1,5 @@
+# 知识点：用数据类跟踪游戏状态与得分，实现可暂停逻辑。
+
 class GameStats:
     """Track statistics for Alien Invasion."""
 

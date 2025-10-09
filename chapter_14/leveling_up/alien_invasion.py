@@ -1,3 +1,5 @@
+# 知识点：调整设置以提升外星人速度，塑造逐步升级的挑战。
+
 import sys
 from time import sleep
 

@@ -1,3 +1,5 @@
+# 知识点：编写函数处理姓名并返回格式化结果。
+
 def build_translator_name(first_name, last_name, middle_name=''):
     """Return a neatly formatted translator name."""
     if middle_name:

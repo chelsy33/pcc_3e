@@ -1,3 +1,5 @@
+# 知识点：为部署环境调整 Django 设置并声明允许的主机。
+
 """
 Django settings for ll_project project.
 
@@ -25,7 +27,8 @@ SECRET_KEY = 'django-insecure-mibxt7sboxg%r)9t6z=a6@weyo(thgbknfcwgyowgx9$5s4&=!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['learning-log.example.com', 'localhost', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://learning-log.example.com']
 
 # Application definition
 

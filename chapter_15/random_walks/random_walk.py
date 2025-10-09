@@ -1,3 +1,5 @@
+# 知识点：构建 RandomWalk 类模拟二维随机漫步轨迹。
+
 from random import choice
 
 

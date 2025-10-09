@@ -1,3 +1,5 @@
+# 知识点：通过索引修改列表元素，反映项目中最新的术语资源。
+
 glossaries = ['legal glossary', 'medical glossary', 'technical glossary', 'marketing glossary']
 print(glossaries)
 

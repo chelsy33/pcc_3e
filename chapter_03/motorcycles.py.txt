@@ -1,3 +1,5 @@
+# 知识点：调用列表方法添加与删除元素，维护工具清单。
+
 translation_requests = ['software manual', 'tourism brochure', 'research abstract', 'overnight legal brief']
 print(translation_requests)
 
