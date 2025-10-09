@@ -1,3 +1,5 @@
+# 知识点：基于模型生成表单，控制字段与外观。
+
 from django import forms
 
 from .models import Topic, Entry

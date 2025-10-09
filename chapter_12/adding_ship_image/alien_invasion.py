@@ -1,3 +1,5 @@
+# 知识点：加载位图图像并在屏幕上绘制飞船。
+
 import sys
 
 import pygame

@@ -1,3 +1,5 @@
+# 知识点：定义类和实例方法，模拟翻译助理犬的行为。
+
 class Reviewer:
     """Model a proofreading specialist."""
 

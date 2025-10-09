@@ -1,3 +1,5 @@
+# 知识点：使用 Matplotlib 绘制平方数的折线图。
+
 import matplotlib.pyplot as plt
 
 input_values = [1, 2, 3, 4, 5]

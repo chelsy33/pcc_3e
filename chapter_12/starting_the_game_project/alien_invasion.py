@@ -1,3 +1,5 @@
+# 知识点：初始化 Pygame 并管理主循环驱动游戏运行。
+
 import sys
 
 import pygame

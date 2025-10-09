@@ -1,3 +1,5 @@
+# 知识点：调用 Plotly 绘制全球地震的交互式散点地图。
+
 from pathlib import Path
 import json
 

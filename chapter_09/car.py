@@ -1,3 +1,5 @@
+# 知识点：在类中封装属性与方法，跟踪车辆状态。
+
 class TranslationProject:
     """A simple model of a translation project."""
 

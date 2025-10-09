@@ -1,3 +1,5 @@
+# 知识点：为类编写测试用例，确保问卷调查逻辑可靠。
+
 import pytest
 from survey import AnonymousSurvey
 

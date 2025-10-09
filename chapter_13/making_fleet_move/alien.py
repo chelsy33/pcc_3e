@@ -1,3 +1,5 @@
+# 知识点：定义外星人精灵并更新其水平移动行为。
+
 import pygame
 
 from pygame.sprite import Sprite

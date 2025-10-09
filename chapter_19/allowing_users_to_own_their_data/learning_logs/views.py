@@ -1,3 +1,5 @@
+# 知识点：使用登录限制和权限检查保护用户数据。
+
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.http import Http404

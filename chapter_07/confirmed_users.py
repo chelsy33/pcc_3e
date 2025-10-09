@@ -1,3 +1,5 @@
+# 知识点：通过 while 循环与列表操作跟踪待确认与已确认用户。
+
 unconfirmed_translators = ['li wen', 'chen yu', 'maria gonzalez']
 confirmed_translators = []
 

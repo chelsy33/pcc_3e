@@ -1,3 +1,5 @@
+# 知识点：创建子弹精灵，实现向上飞行并管理生命周期。
+
 import pygame
 from pygame.sprite import Sprite
 

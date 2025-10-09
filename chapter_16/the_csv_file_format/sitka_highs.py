@@ -1,3 +1,5 @@
+# 知识点：解析 CSV 文件，提取并绘制日最高温数据。
+
 from pathlib import Path
 import csv
 from datetime import datetime
